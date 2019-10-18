@@ -9,9 +9,19 @@ body {
 
 header div {
 	background-color: black;
+	color: white;
+}
+
+header span {
+	float: right;
 }
 
 header a {
 	color: white;
 	text-decoration: none;
+}
+
+#cartNum {
+	background-color: #4CFF5C;
+	border-radius: 50%;
 }
