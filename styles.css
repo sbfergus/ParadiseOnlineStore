@@ -12,13 +12,17 @@ body {
 	color: white;
 	height: 37px;
 	font-family: Merriweather;
-	line-height: 13px;
+	line-height: 37px;
 	font-size: 10px;
-	display: flex;
+	vertical-align: center;
 }
 
-header span {
-	
+#loginSignup {
+	display: inline;
+}
+
+#myCart {
+	display: inline;
 }
 
 header a {
@@ -29,5 +33,5 @@ header a {
 #cartNum {
 	background-color: #4CFF5C;
 	border-radius: 50%;
-	width: 19px;
+	padding: 6px;
 }
