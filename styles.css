@@ -7,13 +7,18 @@ body {
 	background-color: #E5E5E5;
 }
 
-header div {
+.headerTop {
 	background-color: black;
 	color: white;
+	height: 37px;
+	font-family: Merriweather;
+	line-height: 13px;
+	font-size: 10px;
+	display: flex;
 }
 
 header span {
-	float: right;
+	
 }
 
 header a {
@@ -24,4 +29,5 @@ header a {
 #cartNum {
 	background-color: #4CFF5C;
 	border-radius: 50%;
+	width: 19px;
 }
