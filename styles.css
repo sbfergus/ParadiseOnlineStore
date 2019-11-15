@@ -7,6 +7,14 @@ body {
 	background-color: #E5E5E5;
 }
 
+header {
+	background-image: url('images/nike-air-max.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 730px;
+	background-position: 0px 65px;
+}
+
 /* Black Top-Header Styles Below: */
 
 .headerTop {
