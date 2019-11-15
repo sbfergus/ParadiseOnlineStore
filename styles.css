@@ -7,6 +7,8 @@ body {
 	background-color: #E5E5E5;
 }
 
+/* Black Top-Header Styles Below: */
+
 .headerTop {
 	background-color: black;
 	color: white;
@@ -60,12 +62,26 @@ header a {
 	transform: translate(0, 25%);
 }
 
+/* Green Navigation Banner Styles Below:*/
+
 #siteNav {
-	display: flex;
 	height: 80px;
   	background-color: #4cff5c;
-  	align-items: center;
-  	justify-content: space-between;
+  	line-height: 80px; 
+}
+
+#rightSideNav {
+	display: inline-block;
+	float: right;
+	height: 40px;
+	margin-right: 25px; 
+}
+
+#title {
+	display: inline-block;
+	margin-left: 33px;
+	line-height: normal;
+	vertical-align: middle;
 }
 
 #title h1 {
@@ -81,13 +97,11 @@ header a {
   	font-weight: 400;
 }
 
-#title {
+#rightSideNav nav {
 	display: inline-block;
-	margin-left: 33px;
 }
 
-
-#siteNav nav a {
+#rightSideNav nav a {
 	font-family: Merriweather;
   	font-size: 14px;
   	text-decoration: none;
@@ -95,12 +109,12 @@ header a {
   	margin: 0px 20px; 
 }
 
-#siteNav form {
-	margin-left: -300px;
-	margin-right: 25px;
+#rightSideNav form {
+	display: inline-block;
+	margin-left: 55px;
 }
 
-#siteNav form input {
+#rightSideNav form input {
 	width: 282px;
   	height: 40px;
   	background-color: rgba(0,0,0,0.1);
@@ -109,7 +123,7 @@ header a {
   	margin-right: -2px;
 }
 
-#siteNav form button {
+#rightSideNav form button {
 	background-color: rgba(0,0,0,0.1);
 	border: none;
 	height: 40px;
@@ -118,7 +132,7 @@ header a {
 	width: 45px;
 }
 
-#siteNav form button:hover {
+#rightSideNav form button:hover {
 	background-color: #00D000;
 	cursor: pointer;
 }
