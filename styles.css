@@ -35,7 +35,7 @@ body {
 	margin-right: 30px;
 }
 
-header a {
+.headerTop a {
 	color: white;
 	text-decoration: none;
 }
@@ -118,13 +118,23 @@ svg:hover {
 	display: flex;
 }
 
-#rightSideNav nav a {
+#rightSideNav nav a , .dropbtn {
 	font-family: Merriweather;
   	font-size: 14px;
   	text-decoration: none;
   	color: black;
-  	margin: 0px 20px;
-  	white-space: nowrap; 
+  	white-space: nowrap;
+  	padding: 31px 20px; 
+}
+
+.dropbtn {
+	border: none;
+	background-color: #4cff5c;
+}
+
+#rightSideNav nav a:hover, .dropbtn:hover {
+	cursor: pointer;
+	background-color: #00D000;
 }
 
 #hello {
