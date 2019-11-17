@@ -67,6 +67,15 @@ header a {
 	transform: translate(0, 25%);
 }
 
+svg:hover {
+	cursor: pointer;
+	fill: #00D000;
+}
+
+#loginSignup a:hover {
+	color: #00D000;
+}
+
 /* Green Navigation Banner Styles Below:*/
 
 #siteNav {
