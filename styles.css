@@ -10,6 +10,7 @@ body, html {
 
 body {
 	background-color: #E5E5E5;
+	width: 1280px;
 }
 
 /* Black Top-Header Styles Below: */
@@ -26,13 +27,13 @@ body {
 
 #loginSignup {
 	display: inline;
-	margin-left: 13px;
+	margin-left: 28px;
 }
 
 #myCart {
 	display: inline;
 	float: right;
-	margin-right: 30px;
+	margin-right: 35px;
 }
 
 .headerTop a {
@@ -60,7 +61,7 @@ body {
 
 #user-icon {
 	transform: translate(0, 23%);
-	margin-right: 10px;
+	margin-right: 6px;
 }
 
 #cart {
@@ -86,20 +87,17 @@ svg:hover {
 }
 
 #rightSideNav {
-	height: 40px;
-	display: inline-flex;
+	display: flex;
 	align-items: center;
-	height: 100%;
 	margin-right: 25px;
 }
 
 #title {
-	display: inline-flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-left: 15px;
-	position: relative;
-	bottom: 4px;
+	margin-left: 32px;
+	padding-bottom: 4px;
 }
 
 #title h1 {
@@ -118,6 +116,8 @@ svg:hover {
 
 #rightSideNav nav {
 	display: flex;
+	background-color: #4cff5c;
+	height: 100%;
 }
 
 #rightSideNav nav a , .dropbtn {
@@ -126,23 +126,19 @@ svg:hover {
   	text-decoration: none;
   	color: black;
   	white-space: nowrap;
-  	padding: 31px 20px; 
+  	padding: 27px 20px; 
 }
 
-.dropbtn {
+button.dropbtn {
 	border: none;
-	background-color: #4cff5c;
 	outline: none;
-}
-
-.dropbtn .dropdown {
-  	font-family: inherit; 
-  	margin: 0;
+	background-color: #4cff5c;
 }
 
 .dropdown-content {
   	display: none;
   	position: absolute;
+  	top: 117px;
   	background-color: #f9f9f9;
   	min-width: 160px;
   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -169,6 +165,7 @@ svg:hover {
 
 #rightSideNav .dropbtn:hover {
 	background-color: #00D000;
+	height: 100%;
 }
 
 #hello {
@@ -205,13 +202,13 @@ svg:hover {
 
 /* Hero Image and Hero Navigation Below: */
 
-#hero {
+/*#hero {
 	background-image: url('images/nike-air-max.png');
   	background-repeat: no-repeat;
-  	background-size: cover;
+  	width: 100%;
 	height: 800px;
-	margin-top: -3px;
-}
+	margin-top: -8px;
+}*/
 
 #productCarousel {
 	background-color: gray;
