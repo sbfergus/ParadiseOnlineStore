@@ -202,13 +202,13 @@ button.dropbtn {
 
 /* Hero Image and Hero Navigation Below: */
 
-/*#hero {
+#hero {
 	background-image: url('images/nike-air-max.png');
   	background-repeat: no-repeat;
-  	width: 100%;
-	height: 800px;
-	margin-top: -8px;
-}*/
+  	background-position: cover;
+	height: 750px;
+	top: 100px;
+}
 
 #productCarousel {
 	background-color: gray;
