@@ -26,7 +26,7 @@ body {
 
 #loginSignup {
 	display: inline;
-	margin-left: 30px;
+	margin-left: 13px;
 }
 
 #myCart {
@@ -97,8 +97,9 @@ svg:hover {
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 100%;
-	margin-left: 33px;
+	margin-left: 15px;
+	position: relative;
+	bottom: 4px;
 }
 
 #title h1 {
@@ -112,6 +113,7 @@ svg:hover {
 	font-family: Merriweather;
   	font-size: 9px;
   	font-weight: 400;
+  	line-height: 5px;
 }
 
 #rightSideNav nav {
@@ -133,30 +135,31 @@ svg:hover {
 	outline: none;
 }
 
-.dropdown {
-
+.dropbtn .dropdown {
+  	font-family: inherit; 
+  	margin: 0;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  	display: none;
+  	position: absolute;
+  	background-color: #f9f9f9;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+  	float: none;
+  	color: black;
+  	padding: 8px 10px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  	display: block;
 }
 
 #rightSideNav nav a:hover {
@@ -170,15 +173,17 @@ svg:hover {
 
 #hello {
 	white-space: nowrap;
+	width: 135px;
+	text-align: center;
 }
 
 #rightSideNav form {
-	margin-left: 55px;
+	margin-left: 31px;
 	display: flex;
 }
 
 #rightSideNav form input {
-	width: 282px;
+	width: 240px;
   	height: 40px;
   	background-color: rgba(0,0,0,0.1);
   	border: none;
@@ -206,4 +211,23 @@ svg:hover {
   	background-size: cover;
 	height: 800px;
 	margin-top: -3px;
+}
+
+#productCarousel {
+	background-color: gray;
+	width: 423px;
+  	height: 240px;
+  	position: absolute;
+  	top: 475px;
+  	left: 202px;
+  	border-radius: 5px;
+}
+
+#newbox {
+	background-color: blue;
+}
+
+#box1 {
+	background-color: red;
+	border-radius: 5px;
 }
