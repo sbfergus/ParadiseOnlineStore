@@ -130,6 +130,7 @@ svg:hover {
 .dropbtn {
 	border: none;
 	background-color: #4cff5c;
+	outline: none;
 }
 
 .dropdown {
@@ -158,8 +159,12 @@ svg:hover {
   display: block;
 }
 
-#rightSideNav nav a:hover, .dropbtn:hover {
+#rightSideNav nav a:hover {
 	cursor: pointer;
+	background-color: #00D000;
+}
+
+#rightSideNav .dropbtn:hover {
 	background-color: #00D000;
 }
 
