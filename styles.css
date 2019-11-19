@@ -331,6 +331,45 @@ button.dropbtn {
   	font-size: 28px;
   	font-weight: 700;
   	line-height: 35px;
+  	padding-bottom: 40px;
 }
 
+#featuredTop {
+	display: flex;
+	justify-content: space-between;
+}
 
+#featuredTopLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#featuredTopLeftBottom {
+	width: 506px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#featuredBlock1 {
+	width: 506px;
+  	height: 308px;
+  	background-color: #ffffff;
+}
+
+#featuredBlock2 {
+	width: 506px;
+  	height: 650px;
+}
+
+#featuredBlock3 {
+	width: 238px;
+  	height: 308px;
+  	background-color: #ffffff;
+}
+
+#featuredBlock4 {
+	width: 238px;
+  	height: 308px;
+  	background-color: #DCDCDC;
+}
