@@ -68,7 +68,7 @@ body {
 	transform: translate(0, 25%);
 }
 
-svg:hover {
+#cart:hover {
 	cursor: pointer;
 	fill: #00D000;
 }
@@ -240,6 +240,11 @@ button.dropbtn {
 	opacity: 0.9;
 }
 
+.toggleCir:hover {
+	cursor: pointer;
+	fill: #778899;
+}
+
 #productName {
 	width: 270px;
 	height: 100px;
@@ -259,7 +264,7 @@ button.dropbtn {
   	top: 593px;
   	left: 118px;
   	border-radius: 0px 0px 4px 4px;
-  	color: #4cff5c;
+  	color: #4cff5c; 
   	font-family: Merriweather;
   	font-size: 12px;
   	font-weight: 700;
@@ -268,6 +273,16 @@ button.dropbtn {
   	align-items: center;
   	padding: 0px 25px 0px 30px;
   	justify-content: space-between;
+}
+
+#viewProduct:hover {
+	cursor: pointer;
+	background-color: #4cff5c;
+	color: black;
+}
+
+#viewProduct:hover #viewProductPointer {
+	fill: black;
 }
 
 #carouselButtons {
@@ -285,15 +300,20 @@ button.dropbtn {
   	display: flex;
   	justify-content: center;
 	align-items: center;
+	color: black;
+	text-decoration: none;
 }
 
-.fa-caret-right {
-	border-bottom: 1px solid #808080;
-	
+#topCarrot {
+	border-radius: 0px 4px 0px 0px;
 }
 
-.fa-caret-left {
-	
+#bottomCarrot {
+	border-radius: 0px 0px 4px 0px;
+}
+
+.carouselToggle:hover {
+	background-color: #778899;
 }
 
 
