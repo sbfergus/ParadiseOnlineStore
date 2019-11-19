@@ -211,20 +211,90 @@ button.dropbtn {
 }
 
 #productCarousel {
-	background-color: gray;
-	width: 423px;
-  	height: 240px;
+	background-color: white;
+	width: 380px;
+  	height: 180px;
   	position: absolute;
-  	top: 475px;
-  	left: 202px;
-  	border-radius: 5px;
+  	top: 413px;
+  	left: 118px;
+  	border-radius: 4px 0px 4px 0px;
 }
 
-#newbox {
-	background-color: blue;
+#carouselHeader {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 40px 20px 30px;
+	align-items: center;
 }
 
-#box1 {
-	background-color: red;
-	border-radius: 5px;
+#brand {
+	color: #9b9b9b;
+  	font-family: "Open Sans";
+  	font-size: 12px;
+  	font-style: italic;
+  	font-weight: 600;
+  	line-height: 16px;
 }
+
+.svgCir {
+	opacity: 0.9;
+}
+
+#productName {
+	width: 270px;
+	height: 100px;
+	font-family: Merriweather;
+  	font-size: 40px;
+  	font-weight: 700;
+  	line-height: 50px;
+  	position: relative;
+  	left: 30px;
+}
+
+#viewProduct {
+	background-color: black;
+	width: 220px;
+	height: 60px;
+	position: absolute;
+  	top: 593px;
+  	left: 118px;
+  	border-radius: 0px 0px 4px 4px;
+  	color: #4cff5c;
+  	font-family: Merriweather;
+  	font-size: 12px;
+  	font-weight: 700;
+  	line-height: 15px;
+  	display: flex;
+  	align-items: center;
+  	padding: 0px 25px 0px 30px;
+  	justify-content: space-between;
+}
+
+#carouselButtons {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 413px;
+  	left: 498px;
+}
+
+.carouselToggle {
+	background-color: #D3D3D3;
+	width: 42px;
+  	height: 42px;
+  	display: flex;
+  	justify-content: center;
+	align-items: center;
+}
+
+.fa-caret-right {
+	border-bottom: 1px solid #808080;
+	
+}
+
+.fa-caret-left {
+	
+}
+
+
+
