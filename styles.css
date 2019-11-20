@@ -13,6 +13,13 @@ body {
 	width: 1280px;
 }
 
+p {
+	font-family: "Open Sans";
+  	font-size: 12px;
+  	font-weight: 300;
+  	line-height: 16px;
+}
+
 /* Black Top-Header Styles Below: */
 
 .headerTop {
@@ -227,7 +234,7 @@ button.dropbtn {
 	align-items: center;
 }
 
-#brand {
+.brand {
 	color: #9b9b9b;
   	font-family: "Open Sans";
   	font-size: 12px;
@@ -323,7 +330,7 @@ button.dropbtn {
 	width: 1041px;
   	height: 1344px;
   	margin: 0 auto;
-  	background-color: gray;
+  	/*background-color: gray;*/
 }
 
 #featuredProducts h2 {
@@ -355,6 +362,7 @@ button.dropbtn {
 	width: 506px;
   	height: 308px;
   	background-color: #ffffff;
+  	display: flex;
 }
 
 #featuredBlock2 {
@@ -373,3 +381,82 @@ button.dropbtn {
   	height: 308px;
   	background-color: #DCDCDC;
 }
+ .priceTag {
+ 	font-family: Merriweather;
+  	font-size: 14px;
+  	font-weight: 400;
+  	line-height: 23px;
+  	background-color: #4cff5c;
+  	width: 56px;
+  	height: 23px;
+  	padding-left: 11px;
+  	border-radius: 0 100px 100px 0;
+  	position: absolute;
+  	transform: translate(0px, 23px);
+ }
+
+ #block1Name {
+ 	font-family: Merriweather;
+  	font-size: 20px;
+  	font-weight: 700;
+  	line-height: 25px;
+  	padding: 18px 0px;
+ }
+
+ #rightSideBlock1 {
+ 	width: 178px;
+ 	position: relative; 
+ 	top: 38px;
+ 	left: -20px;
+ 	height: 270px;
+ }
+
+ .addToCart {
+ 	width: 114px;
+  	height: 25px;
+  	border: 1px solid #808080;
+  	border-radius: 100px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-around;
+  	font-size: 11px;
+  	
+ }
+
+ #rightSideBlock1 .addToCart {
+ 	margin-top: 20px;
+ }
+
+ .addToCart-Cart {
+ 	color: #979797;
+ 	position: relative;
+ 	bottom: 1px;
+ 	left: 2px;
+ }
+
+ .addToCart-Text {
+ 	font-family: Merriweather;
+  	font-size: 10px;
+  	font-weight: 400;
+  	font-size: 10px;
+  	height: 25px;
+  	border-left: 1px solid #808080;
+  	line-height: 25px;
+  	padding-left: 8px;
+  	position: relative;
+  	right: 7px;
+ }
+
+ .bottomBlock3-4 {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	height: 62px;
+ }
+
+ .blockName3-4 {
+ 	font-family: Merriweather;
+  	font-size: 18px;
+  	font-weight: 700;
+ }
