@@ -479,6 +479,7 @@ button.dropbtn {
  	padding: 4px 14px 4px 14px;
  	border-radius: 100px 100px 100px 100px;
  	margin-left: 10px;
+ 	display: inline;
  }
 
 #blockName2 {
@@ -502,4 +503,62 @@ button.dropbtn {
 .cartBlock4 {
 	color: white;
 	border-color: white;
+}
+
+#featuredBottom {
+	margin-top: 28px;
+	position: relative;
+}
+
+#weeklyBanner {
+	position: absolute;
+	top: 144px;
+	width: 1041px;
+	text-align: center;
+}
+
+#weeklyName {
+	font-size: 60px;
+	color: #4cff5c;
+	padding-top: 13px;
+	margin-bottom: 108px;
+}
+
+#weeklyPicks {
+	color: #4cff5c;
+	background-color: #1b1b1b;
+}
+
+#weeklyProducts {
+	width: 1041px;
+	height: 235px;
+	background-color: rgba(255,255,255,.5);
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding-top: 16px;
+	margin-bottom: 20px;
+}
+
+.weeklyBlock {
+	position: relative;
+}
+
+.weeklyPic {
+	position: relative;
+	z-index: 3;
+}
+
+.weeklyTag {
+	position: absolute;
+	top: 12px;
+	left: 96px;
+	z-index: 2;
+	width: 130px;
+	padding-left: 70px;
+}
+
+.weeklyName {
+	margin-top: 26px;
+	margin-bottom: 18px;
 }
