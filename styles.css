@@ -330,7 +330,6 @@ button.dropbtn {
 	width: 1041px;
   	height: 1344px;
   	margin: 0 auto;
-  	/*background-color: gray;*/
 }
 
 #featuredProducts h2 {
@@ -395,11 +394,14 @@ button.dropbtn {
   	line-height: 23px;
   	background-color: #4cff5c;
   	width: 56px;
-  	/*height: 23px;*/
   	padding-left: 11px;
   	border-radius: 0 100px 100px 0;
-  	/*position: absolute;
-  	transform: translate(0px, 23px);*/
+ }
+
+ .priceTag:hover {
+ 	background-color: black;
+ 	color: #4cff5c;
+ 	cursor: default;
  }
 
  #block1Name {
@@ -427,8 +429,16 @@ button.dropbtn {
   	align-items: center;
   	justify-content: space-around;
   	font-size: 11px;
-  	
  }
+
+.addToCart:hover {
+	cursor: pointer;
+	background-color: #4cff5c;
+}
+
+.addToCart:hover i {
+	color: blue;
+}
 
  #rightSideBlock1 .addToCart {
  	margin-top: 20px;
@@ -503,12 +513,9 @@ button.dropbtn {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
 }
 
 .cartBlock4 {
 	color: white;
 	border-color: white;
-
- 	
 }
