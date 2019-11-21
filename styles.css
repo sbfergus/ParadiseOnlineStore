@@ -368,18 +368,25 @@ button.dropbtn {
 #featuredBlock2 {
 	width: 506px;
   	height: 650px;
+  	position: relative;
 }
 
 #featuredBlock3 {
 	width: 238px;
   	height: 308px;
   	background-color: #ffffff;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
 }
 
 #featuredBlock4 {
 	width: 238px;
   	height: 308px;
-  	background-color: #DCDCDC;
+  	background-color: #E5EAED;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
 }
  .priceTag {
  	font-family: Merriweather;
@@ -388,11 +395,11 @@ button.dropbtn {
   	line-height: 23px;
   	background-color: #4cff5c;
   	width: 56px;
-  	height: 23px;
+  	/*height: 23px;*/
   	padding-left: 11px;
   	border-radius: 0 100px 100px 0;
-  	position: absolute;
-  	transform: translate(0px, 23px);
+  	/*position: absolute;
+  	transform: translate(0px, 23px);*/
  }
 
  #block1Name {
@@ -453,6 +460,8 @@ button.dropbtn {
  	justify-content: space-between;
  	align-items: center;
  	height: 62px;
+ 	position: relative;
+ 	bottom: 15px;
  }
 
  .blockName3-4 {
@@ -460,3 +469,46 @@ button.dropbtn {
   	font-size: 18px;
   	font-weight: 700;
  }
+
+ .priceAndName {
+ 	display: flex;
+ 	align-items: center;
+ 	height: 23px;
+ 	position: absolute;
+  	transform: translate(0px, 23px);
+ }
+
+ .blockBrand {
+ 	background-color: white;
+ 	padding: 4px 14px 4px 14px;
+ 	border-radius: 100px 100px 100px 100px;
+ 	margin-left: 10px;
+ }
+
+#blockName2 {
+	color: #ffffff;
+  	font-family: Merriweather;
+  	font-size: 30px;
+  	font-weight: 700;
+  	padding: 5px 0px;
+}
+
+#bottomBlock2 {
+	position: absolute;
+	left: 0px;
+    bottom: 0px;
+    height: 180px;
+    background-color: rgba(0,0,0,.5);
+    padding: 20px 0px 15px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.cartBlock4 {
+	color: white;
+	border-color: white;
+
+ 	
+}
