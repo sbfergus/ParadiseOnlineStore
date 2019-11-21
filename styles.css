@@ -13,6 +13,16 @@ body {
 	width: 1280px;
 }
 
+.merri400 {
+	font-family: Merriweather;
+	font-weight: 400;
+}
+
+.merri700 {
+	font-family: Merriweather;
+	font-weight: 700;
+}
+
 p {
 	font-family: "Open Sans";
   	font-size: 12px;
@@ -26,7 +36,6 @@ p {
 	background-color: black;
 	color: white;
 	height: 37px;
-	font-family: Merriweather;
 	line-height: 37px;
 	font-size: 10px;
 	vertical-align: center;
@@ -56,8 +65,7 @@ p {
 	line-height: 19px;
 	display: inline-block;
 	text-align: center;
-	margin-left: 8px;
-	margin-right: 8px;
+	margin: 0 8px;
 	color: black;
 	font-family: "Open Sans";
 }
@@ -108,14 +116,12 @@ p {
 }
 
 #title h1 {
-	font-family: Merriweather;
   	font-size: 25px;
  	font-weight: 400;
 }
 
 #title h4 {
 	opacity: 0.42;
-	font-family: Merriweather;
   	font-size: 9px;
   	font-weight: 400;
   	line-height: 5px;
@@ -149,7 +155,6 @@ button.dropbtn {
   	background-color: #f9f9f9;
   	min-width: 160px;
   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  	z-index: 1;
 }
 
 .dropdown-content a {
@@ -163,11 +168,6 @@ button.dropbtn {
 
 .dropdown:hover .dropdown-content {
   	display: block;
-}
-
-#rightSideNav nav a:hover {
-	cursor: pointer;
-	background-color: #00D000;
 }
 
 #rightSideNav .dropbtn:hover {
@@ -202,7 +202,8 @@ button.dropbtn {
 	width: 45px;
 }
 
-#rightSideNav form button:hover {
+#rightSideNav form button:hover, 
+#rightSideNav nav a:hover {
 	background-color: #00D000;
 	cursor: pointer;
 }
@@ -255,9 +256,7 @@ button.dropbtn {
 #productName {
 	width: 270px;
 	height: 100px;
-	font-family: Merriweather;
   	font-size: 40px;
-  	font-weight: 700;
   	line-height: 50px;
   	position: relative;
   	left: 30px;
@@ -272,9 +271,7 @@ button.dropbtn {
   	left: 118px;
   	border-radius: 0px 0px 4px 4px;
   	color: #4cff5c; 
-  	font-family: Merriweather;
   	font-size: 12px;
-  	font-weight: 700;
   	line-height: 15px;
   	display: flex;
   	align-items: center;
@@ -333,9 +330,7 @@ button.dropbtn {
 }
 
 #featuredProducts h2 {
-	font-family: Merriweather;
   	font-size: 28px;
-  	font-weight: 700;
   	line-height: 35px;
   	padding-bottom: 40px;
 }
@@ -388,9 +383,7 @@ button.dropbtn {
   	justify-content: space-between;
 }
  .priceTag {
- 	font-family: Merriweather;
   	font-size: 14px;
-  	font-weight: 400;
   	line-height: 23px;
   	background-color: #4cff5c;
   	width: 56px;
@@ -405,19 +398,17 @@ button.dropbtn {
  }
 
  #block1Name {
- 	font-family: Merriweather;
   	font-size: 20px;
-  	font-weight: 700;
   	line-height: 25px;
   	padding: 18px 0px;
  }
 
  #rightSideBlock1 {
  	width: 178px;
+ 	height: 270px;
  	position: relative; 
  	top: 38px;
  	left: -20px;
- 	height: 270px;
  }
 
  .addToCart {
@@ -452,9 +443,6 @@ button.dropbtn {
  }
 
  .addToCart-Text {
- 	font-family: Merriweather;
-  	font-size: 10px;
-  	font-weight: 400;
   	font-size: 10px;
   	height: 25px;
   	border-left: 1px solid #808080;
@@ -475,9 +463,7 @@ button.dropbtn {
  }
 
  .blockName3-4 {
- 	font-family: Merriweather;
   	font-size: 18px;
-  	font-weight: 700;
  }
 
  .priceAndName {
@@ -497,9 +483,7 @@ button.dropbtn {
 
 #blockName2 {
 	color: #ffffff;
-  	font-family: Merriweather;
   	font-size: 30px;
-  	font-weight: 700;
   	padding: 5px 0px;
 }
 
