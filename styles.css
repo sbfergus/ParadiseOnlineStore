@@ -508,7 +508,6 @@ button.dropbtn {
 	margin-top: 28px;
 	position: relative;
 	width: 1041px;
-	
 }
 
 #weeklyBanner {
@@ -579,5 +578,36 @@ button.dropbtn {
 /* Preview Section Below: */
 
 #preview {
+	position: relative;
 	margin-top: 150px;
+}
+
+#previewBanner {
+	width: 100%;
+	height: 180px;
+	text-align: center;
+	position: absolute;
+	top: 172px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#previewName {
+	font-size: 60px;
+	color: #ffffff;
+}
+
+#previewDescription {
+	color: #ffffff;
+  	font-family: "Open Sans";
+  	font-size: 22px;
+  	width: 730px;
+}
+
+#viewCollection {
+	background-color: #4cff5c;
+	color: black;
+	margin-top: 30px;
 }
