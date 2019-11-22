@@ -403,7 +403,7 @@ button.dropbtn {
  }
 
  #rightSideBlock1 {
- 	width: 178px;
+ 	width: 170px;
  	height: 270px;
  	position: relative; 
  	top: 38px;
@@ -475,8 +475,8 @@ button.dropbtn {
 
  .blockBrand {
  	background-color: white;
- 	padding: 4px 14px 4px 14px;
- 	border-radius: 100px 100px 100px 100px;
+ 	padding: 4px 14px;
+ 	border-radius: 100px;
  	margin-left: 10px;
  	display: inline;
  }
@@ -497,6 +497,10 @@ button.dropbtn {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+#bottomBlock2 p {
+	font-weight: 700;
 }
 
 .cartBlock4 {
@@ -597,6 +601,11 @@ button.dropbtn {
 #previewName {
 	font-size: 60px;
 	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+#previewName i {
+	font-family: "Open Sans";
 }
 
 #previewDescription {
@@ -604,10 +613,13 @@ button.dropbtn {
   	font-family: "Open Sans";
   	font-size: 22px;
   	width: 730px;
+  	font-weight: 100;
 }
 
 #viewCollection {
 	background-color: #4cff5c;
 	color: black;
 	margin-top: 30px;
+	padding: 8px 26px;
+ 	font-size: 10px;
 }
