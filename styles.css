@@ -191,6 +191,7 @@ button.dropbtn {
   	height: 40px;
   	background-color: rgba(0,0,0,0.1);
   	border: none;
+  	padding-left: 14px;
   	border-radius: 4px 0px 0px 4px;
 }
 
@@ -669,8 +670,7 @@ button.dropbtn {
 }
 
 .dateNumber {
-	x: 7; 
-	y: 15; 
+	font-size: 12px;
 	fill: black;
 }
 
@@ -690,4 +690,151 @@ button.dropbtn {
   	font-size: 12px;
   	font-weight: 300;
   	line-height: 16px;
+}
+
+/* Newsletter Section Below: */
+
+#newsLetter {
+	height: 133px;
+	background-color: #272727;
+	margin: 0 auto;
+}
+
+#newsLetterContainer {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 727px;
+	margin: 0 auto;
+}
+
+#newsLetterLeft {
+	display: flex;
+	flex-direction: column;
+}
+
+#newsLetterRight {
+
+}
+
+#newsLetterDescription {
+	font-size: 12px;
+	font-style: italic;
+  	font-weight: 600;
+  	color: #616161;
+}
+
+#newsLetterSignUp {
+	font-size: 30px;
+	color: white;
+}
+
+#newsLetterRight form {
+	margin-left: 31px;
+	display: flex;
+}
+
+#newsLetterRight form input {
+	width: 222px;
+  	height: 53px;
+  	background-color: #3d3d3d;
+  	border: none;
+  	padding-left: 14px;
+  	border-radius: 4px 0px 0px 4px;
+}
+
+#newsLetterRight form button {
+	background-color: #505050;
+	border: none;
+	height: 53px;
+	border-radius: 0px 4px 4px 0px;
+	width: 60px;
+}
+
+/* Footer Section Below: */
+
+footer {
+	height: 308px;
+	background-color: black;
+}
+
+#footerContainer {
+	width: 1042px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+#footerLeft {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+}
+
+#footerLeft p {
+	color: #616161;
+	font-weight: 600;
+	font-style: italic;
+}
+
+#footerLeftTop {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 130px;
+}
+
+#footerSiteName {
+	color: white;
+	font-size: 25px;
+}
+
+#footerCenter {
+	width: 200px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	right: 60px;
+	top: 7px;
+}
+
+#footerCenter .fa {
+	color: white;
+}
+
+#footerRight {
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+	
+}
+
+.footerRightBlock {
+	display: flex;
+	flex-direction: column;
+	width: 118px;
+}
+
+#footerRight a {
+	text-decoration: none;
+	color: #9B9B9B;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.footerRightBlockTitle {
+	color: white;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#paymentOptions {
+	display: flex;
+	color: #9B9B9B;
+	justify-content: space-between;
+	width: 180px;
+	margin-top: 12px;
 }
