@@ -623,3 +623,41 @@ button.dropbtn {
 	padding: 8px 26px;
  	font-size: 10px;
 }
+
+/* Latest News Section Below: */
+
+#latestNews {
+	width: 1041px;
+  	margin: 70px auto 0 auto;
+}
+
+#latestNews h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#latestNewsContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+#newsBlockContainer {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.newsBlock {
+	width: 328px;
+  	height: 339px;
+  	background-color: white;
+}
+
+#newsLoad {
+	text-align: center;
+	background-color: #4cff5c;
+	padding: 10px 0;
+	font-size: 14px;
+	margin-bottom: 70px;
+}
+
