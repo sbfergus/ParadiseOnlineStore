@@ -668,8 +668,10 @@ button.dropbtn {
 	padding: 12px 18px 0px 16px;
 }
 
-.dateFlag {
-
+.dateNumber {
+	x: 7; 
+	y: 15; 
+	fill: black;
 }
 
 .newsBlockText {
