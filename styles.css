@@ -6,11 +6,12 @@
 
 body, html {
     height: 100%;
+    width: 100%;
 }
 
 body {
 	background-color: #E5E5E5;
-	width: 1280px;
+	/*width: 1280px;*/
 }
 
 .merri400 {
@@ -155,6 +156,7 @@ button.dropbtn {
   	background-color: #f9f9f9;
   	min-width: 160px;
   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 5;
 }
 
 .dropdown-content a {
@@ -212,11 +214,7 @@ button.dropbtn {
 /* Hero Image and Hero Navigation Below: */
 
 #hero {
-	background-image: url('images/nike-air-max.png');
-  	background-repeat: no-repeat;
-  	background-position: cover;
-	height: 750px;
-	top: 100px;
+	position: relative;
 }
 
 #productCarousel {
@@ -224,8 +222,8 @@ button.dropbtn {
 	width: 380px;
   	height: 180px;
   	position: absolute;
-  	top: 413px;
-  	left: 118px;
+  	top: 313px;
+  	left: 148px;
   	border-radius: 4px 0px 4px 0px;
 }
 
@@ -268,8 +266,8 @@ button.dropbtn {
 	width: 220px;
 	height: 60px;
 	position: absolute;
-  	top: 593px;
-  	left: 118px;
+  	top: 493px;
+  	left: 148px;
   	border-radius: 0px 0px 4px 4px;
   	color: #4cff5c; 
   	font-size: 12px;
@@ -294,8 +292,8 @@ button.dropbtn {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top: 413px;
-  	left: 498px;
+	top: 313px;
+  	left: 528px;
 }
 
 .carouselToggle {
@@ -327,6 +325,7 @@ button.dropbtn {
 #featuredProducts {
 	width: 1041px;
   	margin: 0 auto;
+  	padding-top: 80px;
 }
 
 #featuredProducts h2 {
