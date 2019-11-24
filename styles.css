@@ -47,6 +47,11 @@ p {
 	margin-left: 28px;
 }
 
+#user-icon:hover {
+	fill: #00D000;
+	cursor: pointer;
+}
+
 #myCart {
 	display: inline;
 	float: right;
@@ -430,6 +435,10 @@ button.dropbtn {
 	color: blue;
 }
 
+.addToCart:hover .addToCart-Text {
+	color: blue;
+}
+
  #rightSideBlock1 .addToCart {
  	margin-top: 20px;
  }
@@ -531,6 +540,12 @@ button.dropbtn {
 	background-color: #1b1b1b;
 }
 
+#weeklyPicks:hover {
+	color: #1b1b1b;
+	background-color:  #4cff5c;
+	cursor: pointer;
+}
+
 #weeklyProducts {
 	width: 1041px;
 	height: 230px;
@@ -573,6 +588,21 @@ button.dropbtn {
 	z-index: 2;
 	width: 130px;
 	padding-left: 86px;
+}
+
+.weeklyTagHover {
+	position: absolute;
+	top: 30px;
+	left: 136px;
+	width: 90px;
+	height: 23px;
+	z-index: 5;
+	border-radius: 100px;
+}
+
+.weeklyTagHover:hover + .weeklyTag {
+	color: #4cff5c;
+	background-color:   #1b1b1b;
 }
 
 .weeklyName {
@@ -624,6 +654,12 @@ button.dropbtn {
  	font-size: 10px;
 }
 
+#viewCollection:hover {
+	background-color: black;
+	color: #4cff5c;
+	cursor: pointer;
+}
+
 /* Latest News Section Below: */
 
 #latestNews {
@@ -661,11 +697,26 @@ button.dropbtn {
 	margin-bottom: 70px;
 }
 
+#newsLoad:hover {
+	color: #4cff5c;
+	background-color: black;
+	cursor: pointer;
+}
+
 .newsBlockBottom {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	padding: 12px 18px 0px 16px;
+}
+
+.newsBlockBottom svg:hover {
+	fill: black;
+	cursor: pointer;
+}
+
+.newsBlockBottom svg:hover text {
+	fill: #4cff5c;
 }
 
 .dateNumber {
@@ -751,6 +802,11 @@ button.dropbtn {
 	width: 60px;
 }
 
+#newsLetterRight form button:hover {
+	background-color: #4cff5c;
+	cursor: pointer;
+}
+
 /* Footer Section Below: */
 
 footer {
@@ -802,6 +858,12 @@ footer {
 
 #footerCenter .fa {
 	color: white;
+}
+
+#footerCenter .fa:hover, 
+#footerRight a:hover {
+	color: #4cff5c;
+	cursor: pointer;
 }
 
 #footerRight {
