@@ -323,6 +323,7 @@ button.dropbtn {
 
 .carouselToggle:hover {
 	background-color: #778899;
+	cursor: pointer;
 }
 
 /* Featured Product Section Below: */
