@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-	background-color: #E5E5E5;
+	background-color: #efefef;
 	/*width: 1280px;*/
 }
 
@@ -236,8 +236,8 @@ button.dropbtn {
 	width: 380px;
   	height: 180px;
   	position: absolute;
-  	top: 313px;
-  	left: 148px;
+  	top: 298px;
+  	left: 119px;
   	border-radius: 4px 0px 4px 0px;
 }
 
@@ -271,15 +271,15 @@ button.dropbtn {
 	width: 220px;
 	height: 60px;
 	position: absolute;
-  	top: 493px;
-  	left: 148px;
+  	top: 478px;
+  	left: 119px;
   	border-radius: 0px 0px 4px 4px;
   	color: #4cff5c; 
   	font-size: 12px;
   	line-height: 15px;
   	display: flex;
   	align-items: center;
-  	padding: 0px 25px 0px 30px;
+  	padding: 0px 20px 0px 35px;
   	justify-content: space-between;
 }
 
@@ -297,12 +297,12 @@ button.dropbtn {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top: 313px;
-  	left: 528px;
+	top: 298px;
+  	left: 499px;
 }
 
 .carouselToggle {
-	background-color: #D3D3D3;
+	background-color: #ededed;
 	width: 42px;
   	height: 42px;
   	display: flex;
@@ -314,7 +314,7 @@ button.dropbtn {
 
 #topCarrot {
 	border-radius: 0px 4px 0px 0px;
-	box-shadow: 0px -0.5px 1px #A9A9A9 inset;
+	box-shadow: 0px -0.5px 1px #C7C7C7 inset;
 }
 
 #bottomCarrot {
@@ -328,7 +328,7 @@ button.dropbtn {
 /* Featured Product Section Below: */
 
 #featuredProducts {
-  	padding-top: 80px;
+  	padding-top: 70px;
 }
 
 #featuredProducts h2 {
@@ -437,6 +437,7 @@ button.dropbtn {
 .addToCart:hover i,
 .addToCart:hover .addToCart-Text {
 	color: blue;
+	font-weight: bold;
 }
 
  #rightSideBlock1 .addToCart {
@@ -531,6 +532,7 @@ button.dropbtn {
 }
 
 #weeklyName {
+	margin-top: 12px;
 	font-size: 60px;
 	color: #4cff5c;
 }
@@ -538,6 +540,7 @@ button.dropbtn {
 #weeklyPicks {
 	color: #4cff5c;
 	background-color: #1b1b1b;
+
 }
 
 #weeklyPicks:hover {
@@ -608,7 +611,7 @@ button.dropbtn {
 
 #preview {
 	position: relative;
-	margin-top: 150px;
+	margin-top: 210px;
 }
 
 #previewBanner {
@@ -665,6 +668,7 @@ button.dropbtn {
 #latestNews h2 {
 	text-align: center;
 	margin-bottom: 50px;
+	font-size: 28px;
 }
 
 #latestNewsContainer {
@@ -679,6 +683,7 @@ button.dropbtn {
 }
 
 .newsBlock {
+	position: relative;
 	width: 328px;
   	height: 339px;
   	background-color: white;
@@ -706,6 +711,46 @@ button.dropbtn {
 
 .newsBlockBottom svg:hover text {
 	fill: #4cff5c;
+}
+
+.newsType {
+  	font-size: 14px;
+  	color: white;
+  	width: 75px;
+  	padding: 3px 0px 3px 15px;
+  	border-radius: 0 100px 100px 0;
+  	font-family: Merriweather;
+	font-weight: 400;
+}
+
+#skate {
+	background-color: #336af2;
+}
+
+#skate:hover {
+	color: #336af2;
+	background-color: white;
+	cursor: default;
+}
+
+#surf {
+	background-color: #9013fe;
+}
+
+#surf:hover {
+	color: #9013fe;
+	background-color: white;
+	cursor: default;
+}
+
+#music {
+	background-color: #f92b60;
+}
+
+#music:hover {
+	color: #f92b60;
+	background-color: white;
+	cursor: default;
 }
 
 .dateNumber {
@@ -857,7 +902,7 @@ footer {
 .footerRightBlockTitle {
 	color: white;
 	font-size: 14px;
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 }
 
 #paymentOptions {
