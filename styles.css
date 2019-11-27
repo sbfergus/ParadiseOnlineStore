@@ -916,6 +916,10 @@ footer {
 	margin-top: 12px;
 }
 
+#credit {
+	color: white;
+}
+
 /* Responsive Style Changes Below : */
 
 @media (max-width: 1120px) {
