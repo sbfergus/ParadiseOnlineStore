@@ -16,6 +16,7 @@ const pic1Click = () => {
 	pic3.style.fill = '#D3D3D3';
 	pic4.style.fill = '#D3D3D3';
 	document.getElementById('productName').textContent = 'Nike Air Max 180';
+	document.getElementById('carouselBrand').textContent = 'Nike';
 };
 
 const pic2Click = () => {
@@ -24,7 +25,8 @@ const pic2Click = () => {
 	pic1.style.fill = '#D3D3D3';
 	pic3.style.fill = '#D3D3D3';
 	pic4.style.fill = '#D3D3D3';
-	document.getElementById('productName').textContent = 'Nike Roshe Run';
+	document.getElementById('productName').textContent = 'Nike Roshe Runners';
+	document.getElementById('carouselBrand').textContent = 'Nike';
 };
 
 const pic3Click = () => {
@@ -34,6 +36,7 @@ const pic3Click = () => {
 	pic2.style.fill = '#D3D3D3';
 	pic4.style.fill = '#D3D3D3';
 	document.getElementById('productName').textContent = 'Converse Chuck Taylor';
+	document.getElementById('carouselBrand').textContent = 'Converse';
 };
 
 const pic4Click = () => {
@@ -42,7 +45,8 @@ const pic4Click = () => {
 	pic1.style.fill = '#D3D3D3';
 	pic2.style.fill = '#D3D3D3';
 	pic3.style.fill = '#D3D3D3';
-	document.getElementById('productName').textContent = 'Adidas Superstar';
+	document.getElementById('productName').textContent = 'Adidas Superstars';
+	document.getElementById('carouselBrand').textContent = 'Adidas';
 };
 
 pic1.onclick = pic1Click;
