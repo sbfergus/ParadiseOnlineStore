@@ -845,7 +845,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 200px;
+	height: 240px;
 }
 
 #footerLeft p {
