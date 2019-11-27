@@ -11,8 +11,9 @@ body, html {
 
 body {
 	background-color: #efefef;
-	/*width: 1280px;*/
 }
+
+/* Universal Styles Below: */
 
 p {
 	font-family: "Open Sans";
@@ -46,6 +47,7 @@ a {
 	margin: 0 auto;
 }
 
+/* The following styles follow the html code from top to bottom of the page*/
 /* Black Top-Header Styles Below: */
 
 .headerTop {
@@ -912,4 +914,24 @@ footer {
 	justify-content: space-between;
 	width: 180px;
 	margin-top: 12px;
+}
+
+/* Responsive Style Changes Below : */
+
+@media (max-width: 1120px) {
+	#productCarousel {
+		top: 98px;
+	}
+
+	#viewProduct {
+	  	top: 278px;
+	}
+
+	#carouselButtons {
+		top: 98px;
+	}
+
+	#previewBanner {
+		top: 100px;
+	}
 }
