@@ -15,6 +15,7 @@ const pic1Click = () => {
 	pic2.style.fill = '#D3D3D3';
 	pic3.style.fill = '#D3D3D3';
 	pic4.style.fill = '#D3D3D3';
+	document.getElementById('productName').textContent = 'Nike Air Max 180';
 };
 
 const pic2Click = () => {
@@ -23,6 +24,7 @@ const pic2Click = () => {
 	pic1.style.fill = '#D3D3D3';
 	pic3.style.fill = '#D3D3D3';
 	pic4.style.fill = '#D3D3D3';
+	document.getElementById('productName').textContent = 'Nike Roshe Run';
 };
 
 const pic3Click = () => {
@@ -31,6 +33,7 @@ const pic3Click = () => {
 	pic1.style.fill = '#D3D3D3';
 	pic2.style.fill = '#D3D3D3';
 	pic4.style.fill = '#D3D3D3';
+	document.getElementById('productName').textContent = 'Converse Chuck Taylor';
 };
 
 const pic4Click = () => {
@@ -39,6 +42,7 @@ const pic4Click = () => {
 	pic1.style.fill = '#D3D3D3';
 	pic2.style.fill = '#D3D3D3';
 	pic3.style.fill = '#D3D3D3';
+	document.getElementById('productName').textContent = 'Adidas Superstar';
 };
 
 pic1.onclick = pic1Click;
@@ -46,15 +50,54 @@ pic2.onclick = pic2Click;
 pic3.onclick = pic3Click;
 pic4.onclick = pic4Click;
 
-const toggleRight = document.getElementById('topCarrot');
-const toggleLeft = document.getElementById('bottomCarrot');
+const right = document.getElementById('topCarrot');
+const left = document.getElementById('bottomCarrot');
 
-const toggleClick = () => {
-	console.log(pic1.style.fill);
-	/*for (let i = 0; i < picsArr.length; i++) {
-
-	}*/
-	
+const toggleRight = () => {
+	let activeCirIndex;
+	for (let i = 0; i < picsArr.length; i++) {
+		if (window.getComputedStyle(picsArr[i]).getPropertyValue("fill") === "rgb(76, 255, 92)") {
+			activeCirIndex = i;
+		}
+	}
+	switch(activeCirIndex) {
+		case 0:
+		pic2Click();
+		break;
+		case 1:
+		pic3Click();
+		break;
+		case 2:
+		pic4Click();
+		break;
+		case 3:
+		pic1Click();
+		break;
+	}	
 };
 
-toggleRight.onclick = toggleClick;
+const toggleLeft = () => {
+	let activeCirIndex;
+	for (let i = 0; i < picsArr.length; i++) {
+		if (window.getComputedStyle(picsArr[i]).getPropertyValue("fill") === "rgb(76, 255, 92)") {
+			activeCirIndex = i;
+		}
+	}
+	switch(activeCirIndex) {
+		case 0:
+		pic4Click();
+		break;
+		case 1:
+		pic1Click();
+		break;
+		case 2:
+		pic2Click();
+		break;
+		case 3:
+		pic3Click();
+		break;
+	}	
+};
+
+right.onclick = toggleRight;
+left.onclick = toggleLeft;
