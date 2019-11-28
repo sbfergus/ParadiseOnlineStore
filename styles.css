@@ -923,6 +923,26 @@ footer {
 /* Responsive Style Changes Below : */
 
 @media (max-width: 1120px) {
+	/* Turn nav into hamburger menu*/
+	#productCarousel {
+		top: 148px;
+	}
+
+	#viewProduct {
+	  	top: 328px;
+	}
+
+	#carouselButtons {
+		top: 148px;
+	}
+
+	#previewBanner {
+		top: 150px;
+	}
+}
+
+@media (max-width: 910px) {
+	/* Turn nav into hamburger menu*/
 	#productCarousel {
 		top: 98px;
 	}
@@ -937,5 +957,11 @@ footer {
 
 	#previewBanner {
 		top: 100px;
+	}
+}
+
+@media (max-width: 500px) {
+	#newsBlockContainer {
+		flex-direction: column;
 	}
 }
