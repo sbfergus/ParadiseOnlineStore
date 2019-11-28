@@ -221,6 +221,10 @@ button.dropbtn {
 	width: 45px;
 }
 
+#hamburger {
+	display: none;
+}
+
 #rightSideNav form button:hover, 
 #rightSideNav nav a:hover {
 	background-color: #00D000;
@@ -958,6 +962,9 @@ footer {
 	#previewBanner {
 		top: 100px;
 	}
+	nav * {
+		display: none;
+	} 
 }
 
 @media (max-width: 500px) {
