@@ -1,4 +1,15 @@
 
+const myFunction = () => {
+	const x = document.getElementsByTagName('nav');
+	if (x.className === "fullNav") {
+		x.className += " responsive";
+	} else {
+		x.className = "fullNav"
+	}
+}
+
+
+
 const pic1 = document.getElementById('pic1');
 const pic2 = document.getElementById('pic2');
 const pic3 = document.getElementById('pic3');
