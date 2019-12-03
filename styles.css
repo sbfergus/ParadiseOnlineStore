@@ -144,7 +144,7 @@ nav {
   	line-height: 5px;
 }
 
-nav a {
+.fullNav a {
 	float: left;
 	font-family: Merriweather;
   	font-size: 14px;
@@ -152,6 +152,10 @@ nav a {
   	white-space: nowrap;
   	padding: 30px 20px; 
   	text-align: center;
+}
+
+.fullNav .icon {
+  display: none;
 }
 
 .dropdown {
@@ -938,9 +942,6 @@ footer {
 
 /* Responsive Style Changes Below : */
 
-#hamburger {
-	display: none;
-}
 
 
 @media (max-width: 1120px) {
@@ -980,31 +981,61 @@ footer {
 		top: 100px;
 	}
 
-	nav a, nav button.dropbtn, nav form {
-		display: none;
+	.fullNav a, .dropdown .dropbtn, .fullNav form {
+	    display: none;
 	}
 
-	#title {
-		display: block;
-	}
-
-	#hamburger {
-		display: block;
-		float: right;
-	}
-
-	#topNav {
-		width: 60px;
+	.fullNav a.icon {
+	    float: right;
+	    display: block;
 	}
 
 	.fullNav.responsive {
 		position: relative;
 	}
 
-	/*.fullNav.responsive * {
+	.fullNav.responsive .icon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.fullNav.responsive a {
 	    float: none;
 	    display: block;
 	    text-align: left;
+	}
+
+	.fullNav.responsive .dropdown {
+		float: none;
+	}
+
+	.fullNav.responsive .dropdown-content {
+		position: relative;
+	}
+
+	.fullNav.responsive .dropdown .dropbtn {
+	    display: block;
+	    width: 100%;
+	    text-align: left;
+	}
+
+	
+
+	
+
+	/*.fullNav.responsive .dropdown {
+		float: none;
+	}
+
+	.fullNav.reponsive .dropdown-content {
+		position: relative;
+	}
+
+	.fullNav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
 	}*/
 }
 

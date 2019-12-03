@@ -1,6 +1,6 @@
 
 const myFunction = () => {
-	const x = document.getElementsByClassName('fullNav');
+	const x = document.getElementById('siteNav');
 	if (x.className === "fullNav") {
 		x.className += " responsive";
 	} else {
