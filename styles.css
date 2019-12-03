@@ -146,7 +146,6 @@ nav {
 
 nav a {
 	float: left;
-	display: block;
 	font-family: Merriweather;
   	font-size: 14px;
   	color: black;
@@ -155,27 +154,31 @@ nav a {
   	text-align: center;
 }
 
-nav button.dropbtn {
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
 	border: none;
 	outline: none;
 	float: left;
-	background-color: #4cff5c;
 	font-size: 14px;
 	font-family: Merriweather;
   	color: black;
   	white-space: nowrap;
   	padding: 30px 20px;
-
+  	background-color: #4cff5c;
 }
 
 .dropdown-content {
   	display: none;
   	position: absolute;
-  	top: 115px;
+  	top: 114px;
   	background-color: #f9f9f9;
   	min-width: 160px;
   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  	z-index: 5;
+  	z-index: 1;
 }
 
 .dropdown-content a {
@@ -981,22 +984,28 @@ footer {
 		display: none;
 	}
 
+	#title {
+		display: block;
+	}
+
 	#hamburger {
 		display: block;
 		float: right;
-		padding: 20px;
-		
+	}
+
+	#topNav {
+		width: 60px;
 	}
 
 	.fullNav.responsive {
 		position: relative;
 	}
 
-	.fullNav.responsive * {
+	/*.fullNav.responsive * {
 	    float: none;
 	    display: block;
 	    text-align: left;
-	}
+	}*/
 }
 
 @media (max-width: 500px) {
