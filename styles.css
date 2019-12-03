@@ -114,15 +114,12 @@ a {
 /* Green Navigation Banner Styles Below:*/
 
 #siteNav {
-	/*height: 80px;*/
   	background-color: #4cff5c;
-  	overflow: hidden;
 }
 
-nav {
+#topNav {
 	margin-right: 25px;
 	float: right;
-	width: 750px;
 }
 
 #title {
@@ -142,6 +139,10 @@ nav {
   	font-size: 9px;
   	font-weight: 400;
   	line-height: 5px;
+}
+
+.fullNav {
+	overflow: hidden;
 }
 
 .fullNav a {
@@ -979,6 +980,10 @@ footer {
 
 	#previewBanner {
 		top: 100px;
+	}
+
+	nav {
+		float: left;
 	}
 
 	.fullNav a, .dropdown .dropbtn, .fullNav form {
