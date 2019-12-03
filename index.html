@@ -29,46 +29,46 @@
 			</div>
 		</div>
 
-			<div class="fullNav" id="siteNav">
+		<section class="navigation">
+			<div class="nav-container">
 				<div id="title">
 					<h1>Paradise<h1>
 					<h4>Online Store<h4>
 				</div>
-				<nav  id="topNav">
-					<div class="dropdown">
-						<button class="dropbtn">Clothing
-							<i class="fa fa-caret-down" aria-hidden="true"></i>
-						</button>
-						<div class="dropdown-content">
-						     <a href="#">Link 1</a>
-						     <a href="#">Link 2</a>
-						     <a href="#">Link 3</a>
-						</div>
-					</div>
-					<div class="dropdown">
-						<button class="dropbtn">Sneakers
-							<i class="fa fa-caret-down" aria-hidden="true"></i>
-						</button>
-						<div class="dropdown-content">
-						      <a href="#">Link 4</a>
-						      <a href="#">Link 5</a>
-						      <a href="#">Link 6</a>
-						</div>
-					</div>	
-					<a href="#">Blog</a>
-					<a id="hello" href="#">Say Hello</a>
-					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<nav>
+					<div class="nav-mobile" onclick="myFunction()">
 						<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-					</a>
-					<form action="">
-						<input type="text" placeholder="Search.. "name="search">
-						<button type="submit">
-							<i class="fa fa-search"></i>
-						</button>
-					</form>
+					</div>
+					<ul class="nav-list">
+						<li>
+							<a href="#" class="dropbtn">Clothing <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+							<ul class="nav-dropdown">
+							     <li><a href="#">Link 1</a></li>
+							     <li><a href="#">Link 2</a></li>
+							     <li><a href="#">Link 3</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="dropbtn">Sneakers <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+							<ul class="nav-dropdown">
+							      <li><a href="#">Link 4</a></li>
+							      <li><a href="#">Link 5</a></li>
+							      <li><a href="#">Link 6</a></li>
+							</ul>
+						</li>	
+						<li><a href="#">Blog</a></li>
+						<li><a id="hello" href="#">Say Hello</a></li>
+						<form>
+							<input type="text" placeholder="Search.. " name="search">
+							<button type="submit">
+								<i class="fa fa-search"></i>
+							</button>
+						</form>	
+					</ul>
 				</nav>
+				
 			</div>
-			
+		</section>	
 		
 	</header>
 

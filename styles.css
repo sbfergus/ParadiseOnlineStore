@@ -113,11 +113,12 @@ a {
 
 /* Green Navigation Banner Styles Below:*/
 
-#siteNav {
-  	background-color: #4cff5c;
+.navigation {
+	height: 75px;
+	background-color: #4cff5c;
 }
 
-#topNav {
+nav {
 	margin-right: 25px;
 	float: right;
 }
@@ -125,8 +126,8 @@ a {
 #title {
 	margin-top: 15px;
 	margin-left: 32px;
-	padding-bottom: 4px;
-	float: left;
+	display: inline-block;
+	height: 50px;
 }
 
 #title h1 {
@@ -141,65 +142,50 @@ a {
   	line-height: 5px;
 }
 
-.fullNav {
-	overflow: hidden;
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-.fullNav a {
+nav ul li {
+	position: relative;
 	float: left;
+}
+
+nav ul li a {
+	display: block;
+	padding: 0px 30px;
+	line-height: 75px;
+	text-decoration: none;
 	font-family: Merriweather;
   	font-size: 14px;
   	color: black;
-  	white-space: nowrap;
-  	padding: 30px 20px; 
-  	text-align: center;
-}
-
-.fullNav .icon {
-  display: none;
-}
-
-.dropdown {
-	float: left;
-	overflow: hidden;
-}
-
-.dropdown .dropbtn {
-	border: none;
-	outline: none;
-	float: left;
-	font-size: 14px;
-	font-family: Merriweather;
-  	color: black;
-  	white-space: nowrap;
-  	padding: 30px 20px;
   	background-color: #4cff5c;
 }
 
-.dropdown-content {
-  	display: none;
-  	position: absolute;
-  	top: 114px;
-  	background-color: #f9f9f9;
-  	min-width: 160px;
-  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  	z-index: 1;
+.nav-mobile {
+	display: none;
 }
 
-.dropdown-content a {
-  	float: none;
-  	color: black;
-  	padding: 30px 20px;
-  	display: block;
-  	text-align: left;
-}
-
-.dropdown:hover .dropdown-content {
-  	display: block;
-}
-
-nav .dropbtn:hover {
+nav ul li a:hover {
 	background-color: #00D000;
+}
+
+.nav-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+nav ul li ul li {
+	min-width: 160px;
+}
+
+nav ul li ul li a {
+	padding: 15px;
+    line-height: 20px;
 }
 
 #hello {
@@ -208,12 +194,27 @@ nav .dropbtn:hover {
 	text-align: center;
 }
 
+.dropbtn:hover {
+	cursor: default;
+}
+
+.dropbtn:hover + .nav-dropdown {
+	display: block;
+}
+
+.nav-dropdown:hover {
+	display: block;
+	background-color: #00D000;
+	cursor: pointer;
+}
+
 nav form {
 	display: block;
 	width: 300px;
 	float: right;
 	height: 60px;
 	margin-top: 14px;
+	margin-left: 40px;
 }
 
 nav form input {
@@ -964,7 +965,7 @@ footer {
 	}
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1012px) {
 	/* Turn nav into hamburger menu*/
 	#productCarousel {
 		top: 98px;
@@ -982,47 +983,16 @@ footer {
 		top: 100px;
 	}
 
-	nav {
-		float: left;
+	nav ul {
+		display: none;
 	}
 
-	.fullNav a, .dropdown .dropbtn, .fullNav form {
-	    display: none;
-	}
-
-	.fullNav a.icon {
-	    float: right;
-	    display: block;
-	}
-
-	.fullNav.responsive {
-		position: relative;
-	}
-
-	.fullNav.responsive .icon {
+	.nav-mobile {
+		display: block;
 		position: absolute;
-		top: 0;
-		right: 0;
-	}
-
-	.fullNav.responsive a {
-	    float: none;
-	    display: block;
-	    text-align: left;
-	}
-
-	.fullNav.responsive .dropdown {
-		float: none;
-	}
-
-	.fullNav.responsive .dropdown-content {
-		position: relative;
-	}
-
-	.fullNav.responsive .dropdown .dropbtn {
-	    display: block;
-	    width: 100%;
-	    text-align: left;
+		background-color: blue;
+	  	height: 75px;
+	  	width: 75px;
 	}
 
 	
