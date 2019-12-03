@@ -116,23 +116,20 @@ a {
 #siteNav {
 	/*height: 80px;*/
   	background-color: #4cff5c;
-  	display: flex;
-  	justify-content: space-between;
-  	align-items: center;
+  	overflow: hidden;
 }
 
 nav {
-	display: flex;
-	align-items: center;
 	margin-right: 25px;
+	float: right;
+	width: 750px;
 }
 
 #title {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	margin-top: 15px;
 	margin-left: 32px;
 	padding-bottom: 4px;
+	float: left;
 }
 
 #title h1 {
@@ -147,19 +144,28 @@ nav {
   	line-height: 5px;
 }
 
-nav a, nav button.dropbtn {
+nav a {
+	float: left;
 	display: block;
 	font-family: Merriweather;
   	font-size: 14px;
   	color: black;
   	white-space: nowrap;
   	padding: 30px 20px; 
+  	text-align: center;
 }
 
 nav button.dropbtn {
 	border: none;
 	outline: none;
+	float: left;
 	background-color: #4cff5c;
+	font-size: 14px;
+	font-family: Merriweather;
+  	color: black;
+  	white-space: nowrap;
+  	padding: 30px 20px;
+
 }
 
 .dropdown-content {
@@ -195,11 +201,11 @@ nav .dropbtn:hover {
 }
 
 nav form {
-	float: right;
-	height: 50px;
-	padding: 0;
-	margin: 0 auto 0 31px;
+	display: block;
 	width: 300px;
+	float: right;
+	height: 60px;
+	margin-top: 14px;
 }
 
 nav form input {
@@ -953,7 +959,7 @@ footer {
 	}
 }
 
-@media (max-width: 910px) {
+@media (max-width: 930px) {
 	/* Turn nav into hamburger menu*/
 	#productCarousel {
 		top: 98px;
@@ -979,7 +985,7 @@ footer {
 		display: block;
 		float: right;
 		padding: 20px;
-		height: 100%;
+		
 	}
 
 	.fullNav.responsive {
