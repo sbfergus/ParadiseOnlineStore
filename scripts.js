@@ -1,10 +1,10 @@
 
 const myFunction = () => {
-	const x = document.getElementById('siteNav');
-	if (x.className === "nav-container") {
+	const x = document.getElementById('topNav');
+	if (x.className === "nav-list") {
 		x.className += " responsive";
 	} else {
-		x.className = "nav-container";
+		x.className = "nav-list";
 	}
 }
 

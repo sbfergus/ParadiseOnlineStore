@@ -118,15 +118,18 @@ a {
 	background-color: #4cff5c;
 }
 
+.nav-list {
+	position: relative;
+}
+
 nav {
-	margin-right: 25px;
 	float: right;
 }
 
 #title {
-	margin-top: 15px;
+	padding-top: 15px;
 	margin-left: 32px;
-	display: inline-block;
+	position: absolute;
 	height: 50px;
 }
 
@@ -166,6 +169,11 @@ nav ul li a {
 
 .nav-mobile {
 	display: none;
+	position: absolute;
+  	top: 0;
+  	right: 0;
+  	line-height: 75px;
+	width: 75px;
 }
 
 nav ul li a:hover {
@@ -225,18 +233,17 @@ nav form input {
   	height: 50px;
   	margin: 0 auto;
   	padding: 0 0 0 16px;
-  	width: 80%;
+  	
 }
 
 nav form button {
 	background-color: rgba(0,0,0,0.1);
 	border: none;
 	border-radius: 0px 4px 4px 0px;
-	float: right;
+	float: left;
 	height: 50px;
 	padding: 0 16px;
 	margin: 0 auto;
-	width: 20%;
 }
 
 nav form button i {
@@ -983,35 +990,86 @@ footer {
 		top: 100px;
 	}
 
-	nav ul {
+	#title {
+		display: block;
+	}
+
+	.nav-list *:not(:first-child) {
 		display: none;
 	}
 
-	.nav-mobile {
-		display: block;
-		position: absolute;
-		background-color: blue;
-	  	height: 75px;
-	  	width: 75px;
+	.nav-list .nav-mobile {
+		float: right;
+    	display: block;
+		cursor: pointer;
+		text-align: center;
 	}
 
-	
-
-	
-
-	/*.fullNav.responsive .dropdown {
-		float: none;
+	.nav-mobile:hover {
+		background-color: #00D000;
 	}
 
-	.fullNav.reponsive .dropdown-content {
+	.nav-list.responsive {
 		position: relative;
+		z-index: 100;
 	}
 
-	.fullNav.responsive .dropdown .dropbtn {
-		display: block;
+	.nav-list.responsive .nav-mobile {
+		position: static;
+	}
+
+	.nav-list.responsive li {
+		float: right;
+    	display: block;
+    	white-space: nowrap;
+	}
+
+	nav {
 		width: 100%;
-		text-align: left;
-	}*/
+	}
+
+	nav * {
+		width: 100%;
+	}
+
+	#hello {
+	    width: 100%;
+	    text-align: left;
+	}
+
+	.nav-list.responsive .nav-dropdown {
+	    position: static;
+	}
+  
+  .nav-list.responsive .nav-dropdown li a { 
+	    padding-left: 30px;
+	}
+  
+  .nav-list.responsive .nav-dropdown:hover {
+	    display: block;
+	    background-color: #00D000;
+	}
+ 
+  .nav-list.responsive form {
+	    float: none;
+	    display: flex;
+	    background-color: #4cff5c;
+	    margin: 0;
+	    height: 60px;
+	    width: 100%;
+	    min-width: 500px;
+	    padding: 4px 50% 0 30px;
+	}
+  
+  .nav-list.responsive form input {
+	    width: 100%;
+	}
+  
+  .nav-list.responsive form button {
+	    display: block;
+	    width: 60px;
+	}
+
 }
 
 @media (max-width: 500px) {
