@@ -233,7 +233,6 @@ nav form input {
   	height: 50px;
   	margin: 0 auto;
   	padding: 0 0 0 16px;
-  	
 }
 
 nav form button {
@@ -267,7 +266,7 @@ nav a:hover {
 	width: 380px;
   	height: 180px;
   	position: absolute;
-  	top: 298px;
+  	bottom: 34%;
   	left: 119px;
   	border-radius: 4px 0px 4px 0px;
 }
@@ -301,9 +300,7 @@ nav a:hover {
 	background-color: black;
 	width: 220px;
 	height: 60px;
-	position: absolute;
-  	top: 478px;
-  	left: 119px;
+  	margin-top: 20px;
   	border-radius: 0px 0px 4px 4px;
   	color: #4cff5c; 
   	font-size: 12px;
@@ -325,11 +322,9 @@ nav a:hover {
 }
 
 #carouselButtons {
-	display: flex;
-	flex-direction: column;
 	position: absolute;
-	top: 298px;
-  	left: 499px;
+	right: -42px;
+	top: 0px;
 }
 
 .carouselToggle {
@@ -955,7 +950,7 @@ footer {
 
 @media (max-width: 1120px) {
 	/* Turn nav into hamburger menu*/
-	#productCarousel {
+	/*#productCarousel {
 		top: 148px;
 	}
 
@@ -969,12 +964,12 @@ footer {
 
 	#previewBanner {
 		top: 150px;
-	}
+	}*/
 }
 
 @media (max-width: 1012px) {
 	/* Turn nav into hamburger menu*/
-	#productCarousel {
+	/*#productCarousel {
 		top: 98px;
 	}
 
@@ -988,7 +983,7 @@ footer {
 
 	#previewBanner {
 		top: 100px;
-	}
+	}*/
 
 	#title {
 		display: block;
