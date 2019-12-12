@@ -1037,12 +1037,17 @@ footer {
 	    text-align: left;
 	}
 
+	.nav-list.responsive a  {
+		line-height: 50px;
+	}
+	
 	.nav-list.responsive .nav-dropdown {
 	    position: static;
 	}
   
   .nav-list.responsive .nav-dropdown li a { 
 	    padding-left: 30px;
+	    line-height: 10px;
 	}
   
   .nav-list.responsive .nav-dropdown:hover {
@@ -1055,20 +1060,24 @@ footer {
 	    display: flex;
 	    background-color: #4cff5c;
 	    margin: 0;
-	    height: 60px;
+	    height: 46px;
 	    width: 100%;
 	    min-width: 500px;
-	    padding: 4px 50% 0 30px;
+	    padding: 5px 50% 0 30px;
 	}
   
   .nav-list.responsive form input {
 	    width: 100%;
+	    height: 35px;
 	}
   
   .nav-list.responsive form button {
 	    display: block;
 	    width: 60px;
+	    height: 35px;
 	}
+
+	
 
 }
 
