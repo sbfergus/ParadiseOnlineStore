@@ -294,6 +294,7 @@ nav a:hover {
   	line-height: 50px;
   	position: relative;
   	left: 30px;
+
 }
 
 #viewProduct {
@@ -949,42 +950,10 @@ footer {
 
 
 @media (max-width: 1120px) {
-	/* Turn nav into hamburger menu*/
-	/*#productCarousel {
-		top: 148px;
-	}
-
-	#viewProduct {
-	  	top: 328px;
-	}
-
-	#carouselButtons {
-		top: 148px;
-	}
-
-	#previewBanner {
-		top: 150px;
-	}*/
+	
 }
 
 @media (max-width: 1012px) {
-	/* Turn nav into hamburger menu*/
-	/*#productCarousel {
-		top: 98px;
-	}
-
-	#viewProduct {
-	  	top: 278px;
-	}
-
-	#carouselButtons {
-		top: 98px;
-	}
-
-	#previewBanner {
-		top: 100px;
-	}*/
-
 	#title {
 		display: block;
 	}
@@ -1071,13 +1040,51 @@ footer {
 	    width: 60px;
 	    height: 35px;
 	}
+}
 
-	
+@media (max-width: 805px) {
+	#productCarousel {
+		bottom: 4px;
+		left: 6%;
+		width: 80%;
+		height: 60px;
+		border-radius: 4px 0px 0px 4px
+	}
 
+	#productName {
+		height: 0px;
+		font-size: 16px;
+  		line-height: 10px;
+  		left: 10px;
+	}
+
+	#carouselHeader {
+		padding: 10px 10px;
+	}
+
+	#viewProduct {
+		right: 0px;
+		width: 40%;
+		height: 50%;
+		margin-top: 0px;
+		float: right;
+		border-radius: 4px 0px 0px 4px;
+		margin-top: -10px;
+	}
+
+	.toggleCir {
+		cy: 5px;
+	}
+
+	.carouselToggle {
+		height: 30px;
+	}
 }
 
 @media (max-width: 500px) {
 	#newsBlockContainer {
 		flex-direction: column;
 	}
+
+	
 }
