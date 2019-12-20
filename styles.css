@@ -26,6 +26,8 @@ a {
 	text-decoration: none;
 }
 
+
+
 .merri400 {
 	font-family: Merriweather;
 	font-weight: 400;
@@ -357,6 +359,7 @@ nav a:hover {
 
 #featuredProducts {
   	padding-top: 70px;
+
 }
 
 #featuredProducts h2 {
@@ -549,7 +552,7 @@ nav a:hover {
 #featuredBottom {
 	margin-top: 28px;
 	position: relative;
-	width: 1041px;
+	background-color: blue;
 }
 
 #weeklyBanner {
@@ -949,8 +952,23 @@ footer {
 
 
 
-@media (max-width: 1120px) {
-	
+@media (max-width: 1060px) {
+	.webCol {
+		width: 100%;
+	}
+
+	#fBimg {
+		width: 100%;
+		margin-left: auto;
+  		margin-right: auto;
+  		display: block;
+	}
+
+	#weeklyProducts {
+		width: 100%;
+	}
+
+
 }
 
 @media (max-width: 1012px) {
@@ -1042,6 +1060,30 @@ footer {
 	}
 }
 
+@media (max-width: 1000px) {
+	#newsBlockContainer {
+		flex-direction: column;
+		align-items: center;
+		
+	}
+
+	.newsBlock {
+		 margin-bottom: 20px;
+		 width: 50%;
+		 height: 430px;
+		 
+	}
+
+	
+}
+
+@media (max-width: 870px) {
+	.newsBlock {
+		height: 390px; 
+		 
+	}
+}
+
 @media (max-width: 805px) {
 	#productCarousel {
 		bottom: 4px;
@@ -1081,10 +1123,10 @@ footer {
 	}
 }
 
-@media (max-width: 500px) {
-	#newsBlockContainer {
-		flex-direction: column;
+@media (max-width: 670px) {
+	.newsBlock {
+		height: 320px; 
+		 
 	}
-
-	
 }
+
