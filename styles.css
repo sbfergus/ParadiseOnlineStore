@@ -967,8 +967,13 @@ footer {
 	#weeklyProducts {
 		width: 100%;
 	}
+}
 
-
+@media (max-width: 1026px) {
+	#featuredTop {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 @media (max-width: 1012px) {
@@ -1120,6 +1125,18 @@ footer {
 
 	.carouselToggle {
 		height: 30px;
+	}
+}
+
+@media (max-width: 750px) {
+	#newsLetterContainer {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 750px) {
+	#previewDescription {
+		width: 100%;
 	}
 }
 
