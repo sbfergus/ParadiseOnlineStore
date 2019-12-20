@@ -657,7 +657,7 @@ nav a:hover {
 	height: 180px;
 	text-align: center;
 	position: absolute;
-	top: 172px;
+	top: 35%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -1087,6 +1087,10 @@ footer {
 }
 
 @media (max-width: 870px) {
+	#previewBanner {
+		top: 15%;
+	}
+
 	.newsBlock {
 		height: 390px; 
 	}
@@ -1162,6 +1166,21 @@ footer {
 @media (max-width: 670px) {
 	.newsBlock {
 		height: 320px;  
+	}
+
+	#previewName {
+		font-size: 30px;
+	}
+
+	#previewDescription {
+		width: 80%;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 570px) {
+	#previewBanner {
+		height: 140px;
 	}
 }
 
