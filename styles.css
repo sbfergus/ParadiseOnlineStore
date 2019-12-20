@@ -742,6 +742,10 @@ nav a:hover {
 	padding: 12px 18px 0px 16px;
 }
 
+.newsBlockBottom svg {
+	margin-right: 10px;
+}
+
 .newsBlockBottom svg:hover {
 	fill: black;
 	cursor: pointer;
@@ -972,6 +976,9 @@ footer {
 		width: 100%;
 	}
 
+	#newsLoad {
+		
+	}
 	/*#weeklyProducts {
 		width: 100%;
 	}*/
