@@ -823,7 +823,7 @@ nav a:hover {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 727px;
+	width: 80%;
 }
 
 #newsLetterLeft {
@@ -1151,12 +1151,22 @@ footer {
 }
 
 @media (max-width: 750px) {
+	#newsLetter {
+		height: 150px;
+	}
+
 	#newsLetterContainer {
 		flex-direction: column;
+		justify-content: flex-start;
 	}
 
 	#previewDescription {
 		width: 100%;
+	}
+
+	#newsLetterLeft {
+		text-align: center;
+		padding: 15px 0px;
 	}
 }
 
