@@ -965,6 +965,11 @@ footer {
 }
 
 @media (max-width: 1026px) {
+	#featuredProducts h2 {
+		
+		text-align: center;
+	}	
+
 	#featuredTop {
 		flex-direction: column;
 		align-items: center;
