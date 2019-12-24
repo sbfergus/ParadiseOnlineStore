@@ -47,7 +47,8 @@ img {
 }
 
 .webCol {
-	width: 1042px;
+	width: 90%;
+	max-width: 1042px;
 	margin: 0 auto;
 }
 
@@ -298,7 +299,6 @@ nav a:hover {
   	line-height: 50px;
   	position: relative;
   	left: 30px;
-
 }
 
 #viewProduct {
@@ -361,7 +361,6 @@ nav a:hover {
 
 #featuredProducts {
   	padding-top: 70px;
-
 }
 
 #featuredProducts h2 {
@@ -966,10 +965,6 @@ footer {
 
 
 @media (max-width: 1060px) {
-	.webCol {
-		width: 100%;
-	}
-
 	#featuredBottom {
 		text-align: center;
 	}
@@ -977,13 +972,6 @@ footer {
 	#fBimg {
 		width: 100%;
 	}
-
-	#newsLoad {
-		
-	}
-	/*#weeklyProducts {
-		width: 100%;
-	}*/
 }
 
 @media (max-width: 1026px) {
@@ -1222,8 +1210,5 @@ footer {
 	#featuredBlock2 {
 		width: 100%;
 	}
-
-
-
 }
 
