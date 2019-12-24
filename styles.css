@@ -732,7 +732,7 @@ nav a:hover {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding: 12px 18px 10px 16px;
+	padding: 12px 18px 14px 16px;
 }
 
 .newsBlockBottom svg {
