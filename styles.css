@@ -966,13 +966,20 @@ footer {
 
 @media (max-width: 1026px) {
 	#featuredProducts h2 {
-		
 		text-align: center;
 	}	
 
 	#featuredTop {
 		flex-direction: column;
 		align-items: center;
+	}
+
+	#featuredBlock1 {
+		margin-bottom: 10px;
+	}
+
+	#featuredTopLeftBottom {
+		margin-bottom: 10px;
 	}
 }
 
