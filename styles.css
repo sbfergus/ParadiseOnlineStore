@@ -504,6 +504,7 @@ nav a:hover {
  }
 
  .blockName3-4 {
+ 	padding-top: 5px;
   	font-size: 18px;
  }
 
@@ -917,15 +918,14 @@ footer {
 
 #footerRight {
 	display: flex;
-	width: 300px;
+	max-width: 300px;
 	justify-content: space-between;
-	
 }
 
 .footerRightBlock {
 	display: flex;
 	flex-direction: column;
-	width: 118px;
+	max-width: 118px;
 }
 
 #footerRight a {
@@ -1191,6 +1191,14 @@ footer {
 		width: 30%;
 		padding-left: 3%;
 		border-radius: 10px;
+	}
+
+	#footerRight {
+		flex-direction: column;
+	}
+
+	#footerRight a {
+		line-height: 12px;
 	}
 }
 
