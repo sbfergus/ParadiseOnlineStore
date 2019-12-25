@@ -381,7 +381,7 @@ nav a:hover {
 }
 
 #featuredTopLeftBottom {
-	max-width: 506px;
+	width: 506px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -394,8 +394,8 @@ nav a:hover {
 }
 
 #featuredBlock2 {
-	max-width: 506px;
-  	max-height: 650px;
+	width: 506px;
+  	height: 650px;
   	position: relative;
 }
 
@@ -534,9 +534,9 @@ nav a:hover {
 	position: absolute;
 	left: 0px;
     bottom: 0px;
-    max-height: 180px;
+    height: 180px;
     background-color: rgba(0,0,0,.5);
-    padding: 20px 0px 15px 35px;
+    padding: 20px 5px 15px 35px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -918,7 +918,7 @@ footer {
 
 #footerRight {
 	display: flex;
-	max-width: 300px;
+	width: 300px;
 	justify-content: space-between;
 }
 
@@ -964,7 +964,7 @@ footer {
 	}
 }
 
-@media (max-width: 1026px) {
+@media (max-width: 1139px) {
 	#featuredProducts h2 {
 		text-align: center;
 	}	
@@ -975,11 +975,11 @@ footer {
 	}
 
 	#featuredBlock1 {
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 	}
 
 	#featuredTopLeftBottom {
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 	}
 }
 
