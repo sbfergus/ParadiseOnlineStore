@@ -733,7 +733,7 @@ nav a:hover {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding: 12px 18px 14px 16px;
+	padding: 12px 18px 20px 16px;
 }
 
 .newsBlockBottom svg {
@@ -1135,6 +1135,17 @@ footer {
 	}
 }
 
+@media (max-width: 790px) {
+	#weeklyBanner {
+		top: 10%;
+	}
+
+	#weeklyName {
+		font-size: 40px;
+	}
+
+}
+
 @media (max-width: 750px) {
 	#newsLetter {
 		height: 150px;
@@ -1156,13 +1167,13 @@ footer {
 }
 
 @media (max-width: 675px) {
-	#weeklyBanner {
+	/*#weeklyBanner {
 		top: 10%;
 	}
 
 	#weeklyName {
 		font-size: 25px;
-	}
+	}*/
 }
 
 @media (max-width: 670px) {
@@ -1173,6 +1184,16 @@ footer {
 	#previewDescription {
 		width: 80%;
 		font-size: 14px;
+	}
+}
+
+@media (max-width: 610px) {
+	/*#weeklyBanner {
+		top: 10%;
+	}*/
+
+	#weeklyName {
+		font-size: 20px;
 	}
 }
 
@@ -1198,7 +1219,10 @@ footer {
 	}
 
 	#footerRight a {
-		line-height: 12px;
+		line-height: 16px;
+	}
+	#weeklyProducts {
+		bottom: -130px;
 	}
 }
 
@@ -1208,6 +1232,10 @@ footer {
 	#featuredBlock1,
 	#featuredBlock2 {
 		width: 100%;
+	}
+
+	#featuredBlock2 {
+		height: auto;
 	}
 }
 
