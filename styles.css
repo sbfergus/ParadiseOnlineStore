@@ -1308,7 +1308,11 @@ footer {
 	}
 
 	.weeklyTag {
-		top: 80px;
+		top: 90px;
+	}
+
+	.bottomWeeklyBlock {
+		height: 55px;
 	}
 
 	#weeklyName {
