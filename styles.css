@@ -1262,8 +1262,12 @@ footer {
 }
 
 @media (max-width: 470px) {
-	#newsLetterSignUp {
-		font-size: 25px;
+	#newsLetter {
+		height: 160px;
+	}
+
+	.weeklyName {
+		font-size: 16px;
 	}
 
 }
