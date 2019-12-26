@@ -790,7 +790,7 @@ nav a:hover {
 }
 
 .dateNumber {
-	font-size: 12px;
+	font-size: 14px;
 	fill: black;
 }
 
@@ -1219,15 +1219,15 @@ footer {
 	}
 }
 
-@media (max-width: 535px) {
+@media (max-width: 585px) {
  	.weeklyTag {
 		position: absolute;
 		top: 100px;
-		left: 35%;
+		left: 34%;
 		z-index: 2;
-		width: 30%;
-		padding-left: 3%;
-		border-radius: 10px;
+		width: 50px;
+		padding-left: 0px;
+		border-radius: 20px;
 	}
 
 	#footerRight {
@@ -1285,6 +1285,14 @@ footer {
 
 	#block1Name {
 		font-size: 18px;
+	}
+
+	.addToCart {
+		width: 100px;
+	}
+
+	.addToCart-Text {
+		font-size: 8px;
 	}
 
 	#weeklyBanner {
