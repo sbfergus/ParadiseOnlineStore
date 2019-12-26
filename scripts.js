@@ -1,4 +1,4 @@
-
+/* Code to add responsive class to navBar */
 const myFunction = () => {
 	const x = document.getElementById('topNav');
 	if (x.className === "nav-list") {
@@ -8,16 +8,16 @@ const myFunction = () => {
 	}
 }
 
+/* Code to select hero pic placeholder and pics that will get swapped in */
 const pic1 = document.getElementById('pic1');
 const pic2 = document.getElementById('pic2');
 const pic3 = document.getElementById('pic3');
 const pic4 = document.getElementById('pic4');
 const picsArr = [pic1, pic2, pic3, pic4];
-
 const heroPic = document.getElementById('heroPic');
-
 const heroPics = ['./images/nike-air-max.png', './images/white-nikes.jpg', './images/train-track-shoes.jpg', './images/girl-shoes.jpg'];
 
+/* Code to change hero pic based on small cirle clicks */
 const pic1Click = () => {
 	heroPic.src = heroPics[0];
 	pic1.style.fill = '#4CFF5C';
@@ -63,6 +63,7 @@ pic2.onclick = pic2Click;
 pic3.onclick = pic3Click;
 pic4.onclick = pic4Click;
 
+/* Code to change hero pic based on toggle carrot clicks */
 const right = document.getElementById('topCarrot');
 const left = document.getElementById('bottomCarrot');
 
