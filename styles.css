@@ -723,7 +723,7 @@ nav a:hover {
 
 #newsLoad {
 	text-align: center;
-	background-color: blue; /*#4cff5c;*/
+	background-color: #4cff5c;
 	padding: 10px 0;
 	font-size: 14px;
 	margin-bottom: 70px;
@@ -1262,12 +1262,27 @@ footer {
 }
 
 @media (max-width: 485px) {
+	#rightSideBlock1 {
+		height: 250px;
+	}
+
+	#weeklyBanner {
+		top: 15%;
+	}
+
+	#weeklyName {
+		font-size: 30px;
+	}
+
 	#newsLetter {
-		height: 180px;
+		height: 185px;
 	}
 
 	.weeklyName {
 		font-size: 16px;
 	}
 
+	footer {
+		padding-bottom: 10px;
+	}
 }
