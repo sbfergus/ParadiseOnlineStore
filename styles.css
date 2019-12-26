@@ -1307,6 +1307,10 @@ footer {
 		top: 15%;
 	}
 
+	.weeklyTag {
+		top: 80px;
+	}
+
 	#weeklyName {
 		font-size: 30px;
 	}
