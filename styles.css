@@ -1312,8 +1312,9 @@ footer {
 	}
 
 	.bottomWeeklyBlock {
-		bottom: 10px;
-		height: 55px;
+		bottom: 0px;
+		height: 50px;
+		background-color: lightblue;
 	}
 
 	#weeklyName {
