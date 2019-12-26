@@ -1261,7 +1261,7 @@ footer {
 	}
 }
 
-@media (max-width: 470px) {
+@media (max-width: 485px) {
 	#newsLetter {
 		height: 160px;
 	}
