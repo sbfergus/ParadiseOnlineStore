@@ -1312,6 +1312,7 @@ footer {
 	}
 
 	.bottomWeeklyBlock {
+		bottom: 10px;
 		height: 55px;
 	}
 
