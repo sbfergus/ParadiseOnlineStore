@@ -1278,6 +1278,14 @@ footer {
 }
 
 @media (max-width: 485px) {
+	#viewProduct {
+		font-size: 10px;
+	}
+
+	#productName {
+		font-size: 12px;
+	}
+
 	#rightSideBlock1 {
 		margin-top: 0px;
 		height: 90%;
