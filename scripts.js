@@ -8,8 +8,6 @@ const myFunction = () => {
 	}
 }
 
-
-
 const pic1 = document.getElementById('pic1');
 const pic2 = document.getElementById('pic2');
 const pic3 = document.getElementById('pic3');
