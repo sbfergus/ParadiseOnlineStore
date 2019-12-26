@@ -1312,13 +1312,16 @@ footer {
 	}
 
 	.bottomWeeklyBlock {
-		bottom: 0px;
-		height: 50px;
-		background-color: lightblue;
+		height: 55px;
 	}
 
 	#weeklyName {
 		font-size: 30px;
+	}
+
+	#weeklyProducts {
+		bottom: -195px;
+		height: 200px;
 	}
 
 	#newsLetter {
