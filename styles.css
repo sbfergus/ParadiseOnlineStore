@@ -1263,7 +1263,7 @@ footer {
 
 @media (max-width: 485px) {
 	#rightSideBlock1 {
-		margin-top: 10px;
+		margin-top: 0px;
 		height: 90%;
 	}
 
