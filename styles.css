@@ -644,7 +644,6 @@ nav a:hover {
 #preview {
 	position: relative;
 	margin-top: 210px;
-
 }
 
 #previewBanner {
@@ -810,7 +809,6 @@ nav a:hover {
 
 #newsLetter {
 	height: 133px;
-	min-height: 133px;
 	background-color: #272727;
 }
 
@@ -1223,9 +1221,26 @@ footer {
 	#footerRight a {
 		line-height: 16px;
 	}
+
+	.footerRightBlockTitle {
+		margin-bottom: 10px;
+	}
+
 	#weeklyProducts {
-		bottom: -115px;
+		bottom: -205px;
 		height: 210px;
+	}
+
+	#weeklyBanner {
+		top: 36%;
+	}
+
+	#weeklyName {
+		font-size: 35px;
+	}
+
+	#preview {
+		margin-top: 290px;
 	}
 }
 
@@ -1246,3 +1261,9 @@ footer {
 	}
 }
 
+@media (max-width: 470px) {
+	#newsLetterSignUp {
+		font-size: 25px;
+	}
+
+}
