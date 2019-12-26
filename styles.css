@@ -186,10 +186,10 @@ nav ul li a:hover {
 }
 
 .nav-dropdown {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  	display: none;
+  	position: absolute;
+  	z-index: 1;
+  	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 nav ul li ul li {
@@ -632,7 +632,6 @@ nav a:hover {
 	height: 23px;
 	z-index: 5;
 	border-radius: 100px;
-	
 }
 
 .weeklyName {
@@ -954,16 +953,6 @@ footer {
 
 /* Responsive Style Changes Below : */
 
-@media (max-width: 1060px) {
-	#featuredBottom {
-		text-align: center;
-	}
-
-	#fBimg {
-		width: 100%;
-	}
-}
-
 @media (max-width: 1139px) {
 	#featuredProducts h2 {
 		text-align: center;
@@ -980,6 +969,16 @@ footer {
 
 	#featuredTopLeftBottom {
 		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 1060px) {
+	#featuredBottom {
+		text-align: center;
+	}
+
+	#fBimg {
+		width: 100%;
 	}
 }
 
@@ -1159,7 +1158,6 @@ footer {
 	#weeklyName {
 		font-size: 40px;
 	}
-
 }
 
 @media (max-width: 750px) {
@@ -1182,16 +1180,6 @@ footer {
 	}
 }
 
-@media (max-width: 675px) {
-	/*#weeklyBanner {
-		top: 10%;
-	}
-
-	#weeklyName {
-		font-size: 25px;
-	}*/
-}
-
 @media (max-width: 670px) {
 	#previewName {
 		font-size: 30px;
@@ -1204,18 +1192,8 @@ footer {
 }
 
 @media (max-width: 610px) {
-	/*#weeklyBanner {
-		top: 10%;
-	}*/
-
 	#weeklyName {
 		font-size: 20px;
-	}
-}
-
-@media (max-width: 570px) {
-	#previewBanner {
-		height: 140px;
 	}
 }
 
@@ -1257,6 +1235,12 @@ footer {
 
 	#preview {
 		margin-top: 290px;
+	}
+}
+
+@media (max-width: 570px) {
+	#previewBanner {
+		height: 140px;
 	}
 }
 
