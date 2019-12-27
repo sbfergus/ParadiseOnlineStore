@@ -972,6 +972,13 @@ footer {
 	}
 }
 
+@media (max-width: 1080px) {
+	#productCarousel {
+		width: 315px;
+  		left: 20px;
+	}
+}
+
 @media (max-width: 1060px) {
 	#featuredBottom {
 		text-align: center;
@@ -1193,7 +1200,7 @@ footer {
 
 @media (max-width: 610px) {
 	#weeklyName {
-		font-size: 20px;
+		font-size: 30px;
 	}
 }
 
